@@ -32,24 +32,33 @@
         <mxCell id="eYKkHPVguQTkj23YLbvH-10" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2115" y="1060" />
+              <mxPoint x="2355" y="1060" />
               <mxPoint x="2225" y="1060" />
             </Array>
             <mxPoint x="2225" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-162" connectable="0" parent="eYKkHPVguQTkj23YLbvH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka：topic_product-flow-event" vertex="1">
-          <mxGeometry relative="1" x="-0.7072" y="-2" as="geometry">
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-185" connectable="0" parent="eYKkHPVguQTkj23YLbvH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka：topic_product-flow-event" vertex="1">
+          <mxGeometry relative="1" x="0.1654" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eYKkHPVguQTkj23YLbvH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery" vertex="1">
-          <mxGeometry height="60" width="120" x="2055" y="950" as="geometry" />
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-183" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-184" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-183" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="历史数据通过回放程序直接写入ES" vertex="1">
+          <mxGeometry relative="1" x="-0.0046" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYKkHPVguQTkj23YLbvH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery&lt;br&gt;汇总数据" vertex="1">
+          <mxGeometry height="60" width="120" x="2295" y="910" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-9" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2349" y="1060" />
+              <mxPoint x="2060" y="980" />
+              <mxPoint x="2060" y="1060" />
               <mxPoint x="2225" y="1060" />
             </Array>
           </mxGeometry>
@@ -60,7 +69,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PMS" vertex="1">
-          <mxGeometry height="60" width="120" x="2289" y="940" as="geometry" />
+          <mxGeometry height="60" width="120" x="2000" y="920" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="ES EVENT" vertex="1">
           <mxGeometry height="80" width="60" x="2355" y="1290" as="geometry" />
@@ -630,21 +639,27 @@
             <mxPoint x="1260" y="1914" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-166" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bQJ3iMqTa88n-3UK_j43-178">
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-189" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eYKkHPVguQTkj23YLbvH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery&lt;br&gt;google" vertex="1">
+          <mxGeometry height="60" width="120" x="2205" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-190" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2705" y="1180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2440" y="875" />
+              <mxPoint x="2355" y="875" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-180" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-166" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="历史数据通过回放程序直接写入ES" vertex="1">
-          <mxGeometry relative="1" x="-0.1319" as="geometry">
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-191" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-190" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="加工" vertex="1">
+          <mxGeometry relative="1" x="0.7366" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-174" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery" vertex="1">
-          <mxGeometry height="70" width="120" x="2645" y="910" as="geometry" />
-        </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-178" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="ES EVENT" vertex="1">
-          <mxGeometry height="80" width="60" x="2675" y="1150" as="geometry" />
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-188" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery&lt;br&gt;other" vertex="1">
+          <mxGeometry height="60" width="120" x="2380" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
