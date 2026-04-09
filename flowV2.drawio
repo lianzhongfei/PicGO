@@ -7,8 +7,8 @@
         <mxCell id="eYKkHPVguQTkj23YLbvH-20" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eYKkHPVguQTkj23YLbvH-26" connectable="0" parent="eYKkHPVguQTkj23YLbvH-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="消息入ES" vertex="1">
-          <mxGeometry relative="1" x="0.7432" y="1" as="geometry">
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-193" connectable="0" parent="eYKkHPVguQTkj23YLbvH-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="消息入ES" vertex="1">
+          <mxGeometry relative="1" x="0.0394" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -38,9 +38,9 @@
             <mxPoint x="2225" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQJ3iMqTa88n-3UK_j43-185" connectable="0" parent="eYKkHPVguQTkj23YLbvH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka：topic_product-flow-event" vertex="1">
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-185" connectable="0" parent="eYKkHPVguQTkj23YLbvH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kafka&lt;br&gt;topic_product-flow-event" vertex="1">
           <mxGeometry relative="1" x="0.1654" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="3" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bQJ3iMqTa88n-3UK_j43-183" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-12">
