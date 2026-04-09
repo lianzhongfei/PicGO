@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="6QIYqyBZDRXHXjEwljxG">
-    <mxGraphModel dx="1795" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2398" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,22 +21,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ads（java）" vertex="1">
-          <mxGeometry height="60" width="120" x="230" y="490" as="geometry" />
+          <mxGeometry height="60" width="120" x="225" y="-290" as="geometry" />
         </mxCell>
-        <mxCell id="eYKkHPVguQTkj23YLbvH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ads-task（python）" vertex="1">
-          <mxGeometry height="60" width="120" x="110" y="660" as="geometry" />
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-106" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bQJ3iMqTa88n-3UK_j43-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eYKkHPVguQTkj23YLbvH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ads-task（python）&lt;br&gt;持续监听 Kafka 事件" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-10" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="430" />
-              <mxPoint x="290" y="430" />
+              <mxPoint x="175" y="-350" />
+              <mxPoint x="285" y="-350" />
             </Array>
-            <mxPoint x="290" y="470" as="targetPoint" />
+            <mxPoint x="285" y="-310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BigQuery" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="320" as="geometry" />
+          <mxGeometry height="60" width="120" x="115" y="-460" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-9" edge="1" parent="1" source="eYKkHPVguQTkj23YLbvH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eYKkHPVguQTkj23YLbvH-1">
           <mxGeometry relative="1" as="geometry" />
@@ -47,13 +50,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PMS" vertex="1">
-          <mxGeometry height="60" width="120" x="354" y="310" as="geometry" />
+          <mxGeometry height="60" width="120" x="349" y="-470" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="ES EVENT" vertex="1">
-          <mxGeometry height="80" width="60" x="420" y="660" as="geometry" />
-        </mxCell>
-        <mxCell id="eYKkHPVguQTkj23YLbvH-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ads-task（python）" vertex="1">
-          <mxGeometry height="60" width="120" x="-60" y="750" as="geometry" />
+          <mxGeometry height="80" width="60" x="415" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="eYKkHPVguQTkj23YLbvH-28" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="730" width="10" x="240" y="910" as="geometry" />
@@ -454,6 +454,62 @@
         </mxCell>
         <mxCell id="bQJ3iMqTa88n-3UK_j43-74" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="WAIT" vertex="1">
           <mxGeometry height="60" width="120" x="820" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-80" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="启动Flow" vertex="1">
+          <mxGeometry height="60" width="120" x="-360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-82" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MYSQL&lt;br&gt;flow_external_event_valve" vertex="1">
+          <mxGeometry height="120" width="90" x="-345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-87" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bQJ3iMqTa88n-3UK_j43-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ADS后台配置Flow流" vertex="1">
+          <mxGeometry height="60" width="120" x="-360" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-88" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bQJ3iMqTa88n-3UK_j43-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-89" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="往DB插入一条记录" vertex="1">
+          <mxGeometry relative="1" x="-0.1313" y="-2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-108" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bQJ3iMqTa88n-3UK_j43-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-109" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1815" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-111" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bQJ3iMqTa88n-3UK_j43-110" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-112" connectable="0" parent="bQJ3iMqTa88n-3UK_j43-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-103" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;SSendEventOnTheFly2ValveAbsTaskRunner&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;匹配是否有符合条件的flow&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-114" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bQJ3iMqTa88n-3UK_j43-113" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-110" parent="1" style="whiteSpace=wrap;html=1;" value="往下一步推进flow" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-118" edge="1" parent="1" source="bQJ3iMqTa88n-3UK_j43-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bQJ3iMqTa88n-3UK_j43-117" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-113" parent="1" style="whiteSpace=wrap;html=1;" value="flow执行完成" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="bQJ3iMqTa88n-3UK_j43-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
